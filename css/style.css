@@ -1,0 +1,282 @@
+ * {
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+
+/* Header - barra de navegacion*/
+
+.nav{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.titulonav{
+    color: white;
+}
+
+.elementosnav{
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+}
+
+li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+a, button{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.boton{
+    background-color: rgb(137, 137, 151);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* Secciones 1 y 2 */
+
+.contenedorprincipal{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 1% 15% 1% 15%;
+}
+
+/* Seccion1 */
+
+.seccion1{
+    flex: 2;
+    padding: 15px;
+}
+
+/* Tarjeta seccion 1 */
+
+.secciontarjeta{
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid rgb(91, 91, 105);
+    margin-bottom:20px;
+}
+.superior{
+    background-color:rgb(91, 91, 105);
+    height: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.informacionperfil{
+    background-color: white;
+    margin-top: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 30px;
+}
+
+
+.informacionperfil >a{
+    color: rgb(14, 30, 208);
+    text-decoration:underline;
+}
+
+.informacionperfil img{
+    margin-top: 15px;
+}
+
+.tamañoimagen{
+    height: 80px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    padding: 5px;
+    border: 2px solid gray;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.tamañoicono{
+    height: 20px;
+}
+
+.alto{
+    margin-top:10px;
+}
+
+/* Tarjeta seccion educacion */
+
+.seccioneducacion{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(91, 91, 105);
+    border-radius: 15px;
+}
+
+.superioredu{
+    background-color: rgb(91, 91, 105);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.superioredu >h2{
+    color: white;
+    margin-left: 20px;
+}
+
+.contenidoedu{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+}
+
+.contenidoedu p {
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+/* Seccion2 */
+
+.seccion2{
+    flex: 1;
+    padding:15px;
+}
+
+/* Tarjetas seccion conexiones */
+
+.seccionconexiones{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(91, 91, 105);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.conexionesheader{
+    background-color: rgb(91, 91, 105);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.circulo2{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(198, 198, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.circulo2 h2{
+    margin: 0 auto;
+    font-size: 17px;
+    color: white;
+}
+
+.conexionesheader h2{
+    color: white;
+    margil-left: 15px;
+}
+
+.conexionesmain{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textolight{
+    color: rgb(173, 173, 173);
+}
+
+.usericons{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+
+.usericons img{
+    margin-left: 10px;
+}
+
+.tamañousericons{
+    height: 30px;
+}
+
+.tamañousericonname{
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid rgb(91, 91, 105) ;
+}
+
+.usericonname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usericonname p {
+    margin-left: 15px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.circulo500{
+    height: 25px;
+    background-color: rgb(198, 198, 214);
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo500 h2{
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.seccionconexiones2{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(91, 91, 105);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.arrybotom{
+    margin-bottom: 10px;
+}
+
+.viewmore{
+    color: black;
+    border-top: 2px solid rgb(91, 91, 105);
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.viewmore a{
+    color: black;
+    margin-left: 10px;
+    text-decoration: underline;
+}

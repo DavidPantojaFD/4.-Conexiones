@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de perfil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet"
+</head>
+<body>
+    <header>
+        <div class="nav">
+                <ul class="elementosnav">
+                    <h3 class="titulonav">Profile</h3>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Mi Perfil</a></li>
+                    <li><a href="#">Encuentra Conexiones</a></li>
+                </ul>
+                <button class="boton">Cerrar Sesion</button>
+        </div>
+    </header>
+    
+        <div class="contenedorprincipal">
+                <div class="seccion1">
+                    <div class="secciontarjeta">
+                        <div class="superior">
+                            <img src="icons/user-circle.png" alt="Imagen usuario" class="tamañoimagen">
+                        </div>
+                        <div class="informacionperfil">
+                            <h1 class="username">Jane Doe</h1>
+                            <img src="icons/map-marker.png" alt="mapa" class="tamañoicono">
+                            <scan>Medellin, Colombia.</scan>
+                            <p class="alto">Ingeniero Electrónico - Desarrollador Full Stack</p>
+                            <p>Aprendiz en Coding Dojo</p>
+                            <img src="icons/gear.png" alt="settings" class="tamañoicono">
+                            <a href="#"><scan onclick="cambiarnombre()">edit profile</scan></a>
+                        </div>
+                    </div>
+                    <div class="seccioneducacion">
+                        <div class="superioredu">
+                            <h2>Educacion</h2>
+                        </div>
+                        <div class="contenidoedu">
+                            <p>Coding Dojo - Full Stack Bootcamp</p>
+                            <p class="textolight">Junio 2022 - 2023</p>
+                            <p>Fundamentos de la Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="seccion2">
+                    <div class="seccionconexiones">
+                        <div class="conexionesheader">
+                            <div class="circulo2"><h2>2</h2></div>
+                            <h2>Peticion de Conexiones</h2>
+                        </div>
+                        <div id="usuario1" class="conexionesmain">
+                            <div class="usericonname">
+                                <img src="images/todd-s.jpg" alt="imagen ususario" class="tamañousericonname">
+                                <p>Todd E</p>
+                            </div>
+                            <div class="usericons">
+                                <img onclick="eliminarelementomas(1)" src="icons/accept-circle.png"class="tamañousericons" alt="icono aceptar">
+                                <img onclick="eliminarelementomenos(1)" src="icons/close-circle.png" class="tamañousericons" alt="icono cerar">
+                            </div>
+                        </div>
+                        <div id="usuario2" class="conexionesmain">
+                            <div class="usericonname">
+                                <img src="images/phil-s.jpg" alt="imagen ususario" class="tamañousericonname">
+                                <p>Phill K</p>
+                            </div>
+                            <div class="usericons">
+                                <img  onclick="eliminarelementomas(2)" src="icons/accept-circle.png"class="tamañousericons" alt="icono aceptar">
+                                <img onclick="eliminarelementomenos(2)" src="icons/close-circle.png" class="tamañousericons" alt="icono cerar">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="seccionconexiones2">
+                        <div class="conexiones3">
+                            <div class="conexionesheader">
+                                <div class="circulo500"><h2>500</h2></div>
+                                <h2>Tus Conexiones</h2>
+                            </div>
+                            <div class="conexionesmain">
+                                <div class="usericonname">
+                                    <img src="images/adrien-s.jpg" alt="imagen ususario" class="tamañousericonname">
+                                    <p>Adrian D</p>
+                                </div>
+                            </div>
+                            <div class="conexionesmain">
+                                <div class="usericonname">
+                                    <img src="images/anne-s.jpg" alt="imagen ususario" class="tamañousericonname">
+                                    <p>Anne J</p>
+                                </div>
+                            </div>
+                            <div class="conexionesmain">
+                                <div class="usericonname">
+                                    <img src="images/alayne-s.jpg" alt="imagen ususario" class="tamañousericonname">
+                                    <p>Alayne T</p>
+                                </div>
+                            </div>
+                            <div class="conexionesmain">
+                                <div class="usericonname">
+                                    <img src="images/arry-s.jpg" alt="imagen ususario" class="tamañousericonname">
+                                    <p class="arrybotom">Arry T</p>
+                                </div>
+                            </div>
+                            <div class="viewmore">
+                                <a href="#" >Mirar mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    
+<script src="js/script.js"></script>    
+</body>
+</html>
